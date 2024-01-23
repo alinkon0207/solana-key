@@ -9,7 +9,7 @@ const convert = () => {
 
   let str = "[";
   for (let i = 0; i < userKeypair.secretKey.length; i++) {
-    let v = userKeypair.secretKey.at(i);
+    let v = userKeypair.secretKey[i];
     str += v;
     if (i != userKeypair.secretKey.length - 1) {
       str += ',';
