@@ -1,6 +1,6 @@
 
 import bs58 from "bs58";
-import { PublicKey, Keypair } from "@solana/web3.js";
+import { Keypair } from "@solana/web3.js";
 import fs from 'fs';
 
 const convert = () => {
